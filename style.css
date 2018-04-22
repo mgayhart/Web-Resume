@@ -1,5 +1,30 @@
-h1{
-font-family: Arial;
+.welcome{
+font-family: Georgia;
 color: red;
-text-transform: capitalize;
+}
+header{
+  background-color: gray;
+  border-bottom: 1px solid gray;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+ul{
+  margin: 30px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+li{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  display: inline-block;
+  width: 80px;
+}
+
+li:hover{
+  color: maroon;
 }
